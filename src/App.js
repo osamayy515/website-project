@@ -3,12 +3,13 @@ import React from 'react'
 // import logo from './logo.svg';
 import './App.css';
 import { CssBaseline } from '@mui/material';
+import NavigationBar from './NavigationBar';
 
 function App() {
   return (
     <div className='App'>
       <CssBaseline />
-      <h1>Welcome</h1>
+      <NavigationBar />
     </div>
   );
 }
