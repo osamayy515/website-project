@@ -2,10 +2,12 @@ import { Grid, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from "@mui/material";
 import React from "react";
+import MainGridItem from "./MainGridItem";
+import GridItem from "./Griditem";
 
 const GridItems = createTheme();
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
     mainGridItems: {
         backgroundColor: 'blue'
     },
@@ -28,15 +30,11 @@ export default function GridLayout() {
         <ThemeProvider theme={GridItems}>
             <Grid container spacing={3}>
                 <Grid item lg={12} sm={12} xs={12}>
-                    <Typography className={classes.mainGridItems}>
-                        Main Grid Item
-                    </Typography>
+                    <MainGridItem/>
                 </Grid>
                     
                 <Grid item sm={6} xs={12}>
-                    <Typography className={classes.secondRow}>
-                        Second Row, First Item
-                    </Typography>
+                    <GridItem/>
                 </Grid>
 
                 <Grid item sm={6} xs={12}>
