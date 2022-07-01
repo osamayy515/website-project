@@ -33,7 +33,7 @@ export default function GridLayout() {
                     <MainGridItem/>
                 </Grid>
                     
-                <Grid item sm={6} xs={12}>
+                <Grid item lg={6} md={12} sm={12} xs={12}>
                     <GridItem 
                         title="Excel Masterclass"
                         image="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4r1u3?ver=b726&q=90&m=2&h=768&w=1024&b=%23FFFFFFFF&aim=true"
@@ -41,7 +41,7 @@ export default function GridLayout() {
                     />
                 </Grid>
 
-                <Grid item sm={6} xs={12}>
+                <Grid item lg={6} md={12} sm={12} xs={12}>
                     <GridItem 
                         title="Learn to code and get hired"
                         image="https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg"
@@ -49,7 +49,7 @@ export default function GridLayout() {
                     />
                 </Grid>
 
-                <Grid item  sm={4} xs={12}>
+                <Grid item lg={4} md={12} sm={12} xs={12}>
                     <GridItem 
                         title="3D modeling Masterclass"
                         image="https://www.3dsourced.com/wp-content/uploads/2021/02/Best-free-3d-modeling-software.jpg"
@@ -57,15 +57,15 @@ export default function GridLayout() {
                     />
                 </Grid>
 
-                <Grid item  sm={4} xs={12}>
+                <Grid item lg={4} md={12} sm={12} xs={12}>
                     <GridItem 
                         title="Game Development Masterclass"
                         image="https://unity.com/sites/default/files/styles/16_9_s_scale_width/public/2020-02/common-words-and-phrases.jpg?itok=nNCHk86-"
-                        description="The course covers topics such as programming languages, graphics, animation, music, level design, and more. You will be able to create your own games using Unity3D, which is a free game engine used by many indie game developers."
+                        description="The course covers topics such as programming languages, graphics, animation, and more. You will be able to create your own games using Unity3D, which is a free game engine used by many indie game developers."
                     />
                 </Grid>
 
-                <Grid item  sm={4} xs={12}>
+                <Grid item lg={4} md={12} sm={12} xs={12}>
                     <GridItem 
                         title="Business and Side Hustles"
                         image="https://www.patriotsoftware.com/wp-content/uploads/2019/03/craft-financial-business-plan-1.jpg"
