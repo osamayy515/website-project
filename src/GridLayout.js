@@ -1,5 +1,5 @@
-import { Grid, Typography } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { Grid } from "@mui/material";
+// import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from "@mui/material";
 import React from "react";
 import MainGridItem from "./MainGridItem";
@@ -7,24 +7,24 @@ import GridItem from "./Griditem";
 
 const GridItems = createTheme();
 
-const useStyles = makeStyles(theme => ({
-    mainGridItems: {
-        backgroundColor: 'blue'
-    },
-    secondRow: {
-        backgroundColor: 'green'
-    },
-    secondRowSecondItem: {
-        backgroundColor: 'orange'
-    },
-    thirdROw: {
-        backgroundColor: "pink"
-    }
-}))
+// const useStyles = makeStyles(theme => ({
+//     mainGridItems: {
+//         backgroundColor: 'blue'
+//     },
+//     secondRow: {
+//         backgroundColor: 'green'
+//     },
+//     secondRowSecondItem: {
+//         backgroundColor: 'orange'
+//     },
+//     thirdROw: {
+//         backgroundColor: "pink"
+//     }
+// }));
 
 export default function GridLayout() {
 
-    const classes = useStyles();
+    // const classes = useStyles();
 
     return (
         <ThemeProvider theme={GridItems}>

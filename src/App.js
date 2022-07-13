@@ -5,6 +5,8 @@ import './App.css';
 import { Container, CssBaseline } from '@mui/material';
 import NavigationBar from './NavigationBar';
 import GridLayout from './GridLayout';
+import Footer from './Footer';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <GridLayout />
         </main>
       </Container>
+      <Footer />
     </div>
   );
 }
